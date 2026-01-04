@@ -1,0 +1,6 @@
+#Use fancy indexing to extract even numbers from [1, 2, 3, 4, 5, 6]
+import numpy as np
+arr=np.array([1, 2, 3, 4, 5, 6])
+print(arr[1::2]) #slicing
+print(arr[[1,3,5]]) #fancy indexing
+print(arr[arr%2==0]) #boolean indexing
