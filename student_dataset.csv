@@ -1,0 +1,9 @@
+Student_ID,Name,Age,Gender,Course,Semester,Maths,Python,DSA,Attendance_%,Internal_Marks,Final_Result
+101,Abhay,20,M,BCA,3,85,90,78,92,25,Pass
+102,Ayush,21,M,BTech,5,78,82,74,85,22,Pass
+103,Rohit,19,M,BCA,3,88,85,80,88,24,Pass
+104,Neha,22,F,BSc,4,92,95,88,96,28,Pass
+105,Pooja,20,F,BCA,3,81,88,76,90,23,Pass
+106,Aman,21,M,BTech,5,75,80,70,82,21,Pass
+107,Kunal,23,M,BSc,4,89,87,85,94,26,Pass
+108,Priya,19,F,BCA,3,90,93,89,97,27,Pass
