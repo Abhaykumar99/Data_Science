@@ -15,3 +15,9 @@ print(df.iloc[0:2,0:3])
 
 print(df.at[1,"Name"])
 print(df.iat[1,1])
+
+
+
+print(df[df["Attendance_%"]>90]["Name"])
+
+print(df.query("`Attendance_%` > 90 and Final_Result == 'Pass'"))
