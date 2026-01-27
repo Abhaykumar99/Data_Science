@@ -1,0 +1,19 @@
+import pandas as pd
+
+# Sample DataFrame
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Math': [85, 78, 92],
+    'Science': [90, 82, 89],
+    'English': [88, 85, 94]
+}
+
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print(df)
+df2=df.melt(id_vars=["Name"],value_vars=["Math","Science","English"],var_name="Subject", value_name="Score")
+print(df2)
+
+df2=df2.pivot(index="Name",columns="Subject",values="Score")
+print(df2)
