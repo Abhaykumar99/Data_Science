@@ -26,3 +26,6 @@ print(df2)
 
 df["Team Avg"] = df.groupby("Team")["Salary"].transform("mean")
 print(df)
+
+df=df.groupby("Team").filter(lambda x: x["Salary"].mean() > 85)
+print(df)
