@@ -16,4 +16,4 @@ plt.title("Runs Socred by Players")
 for i in range(len(players)):
     plt.text(i,runs[i]+30,str(runs[i]),ha='center')
 plt.tight_layout()
-plt.show()
+plt.show() 
