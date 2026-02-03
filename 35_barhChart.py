@@ -8,3 +8,12 @@ plt.ylabel("Players Name")
 plt.title("Firts 5 Years Indian Batsman")
 plt.tight_layout()
 plt.show()
+
+players = ["Sachin", "Sehwag", "Kohli"]
+runs = [1500, 1200, 1800]
+plt.bar(players,runs,color="Red")
+plt.title("Runs Socred by Players")
+for i in range(len(players)):
+    plt.text(i,runs[i]+30,str(runs[i]),ha='center')
+plt.tight_layout()
+plt.show()
