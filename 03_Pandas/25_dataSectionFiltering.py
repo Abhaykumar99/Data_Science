@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("student_dataset.csv")
+df = pd.read_csv("../Resources/student_dataset.csv")
 print(df)
 print(df["Name"] )       # Single column (as Series)
 print(df[["Name", "Course"]] )    # Multiple columns (as DataFrame)
